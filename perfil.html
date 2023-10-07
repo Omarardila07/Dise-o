@@ -45,5 +45,15 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const imagenes = document.querySelectorAll("img");
+        imagenes.forEach((imagen) => {
+            imagen.onclick = () => {
+                localStorage.direccion = imagen.src;
+                window.location.href = "nuevo.html";
+            };
+        });
+    </script>
 </body>
 </html>
