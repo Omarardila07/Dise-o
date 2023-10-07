@@ -2,10 +2,21 @@ body{
     background-color: black; 
 } 
 
+.normal {
+    background-color: black;
+}
+
 .todo {
     background-color: black;
 }
- 
+
+.imagen1111 {
+    position: absolute;
+    padding-top: 365px;
+    padding-left: 85px;
+    width: 67%;
+}
+
 h1 { 
     color: white; 
     text-align: center; 
